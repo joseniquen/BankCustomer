@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.banck.bankcustomer.infraestructure.rest.CustomerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.banck.bankcustomer.infraestructure.rest.CustomerControllerTest
+listAll  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.banck.bankcustomer.aplication.CustomerOperations.list()" because "this.operations" is null
+	at com.banck.bankcustomer.infraestructure.rest.CustomerControllerTest.listAll(CustomerControllerTest.java:25)
+
